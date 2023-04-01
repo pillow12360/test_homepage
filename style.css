@@ -25,7 +25,6 @@ a{
 }
 a:hover{
   font-style: italic;
-  font-size : 110%;
 }
 ul, ol, li {
   list-style: none;
@@ -59,4 +58,11 @@ header h2 {
 #home>.container>p:nth-child(1){
   top: 200px;
   left:60px
+}
+
+#background{
+  width : auto;
+  height : 1000px;
+  background-image: url(./다운로드.jpg);
+  background-repeat: no-repeat;
 }

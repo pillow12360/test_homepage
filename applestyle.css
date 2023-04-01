@@ -1,0 +1,56 @@
+.profile {
+  width : 50vw;
+  height : 10vw;
+  margin-left:auto;
+  margin-right : auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 5vw;
+  color:red;
+}
+/* 클래스 선택자 */
+p {
+  text-align : center;
+  font-size : 5vw;
+}
+img {
+  width : 40vw;
+  height: 40vw;
+  display : block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius : 100px;
+}
+/* 모든 p태그  */
+#special {
+   font-size: 50px;
+   color:blue;
+}
+
+/* 아이디는 보통 사용하지 않음 */
+
+/* 아이디와  */
+
+.content {
+  text-align: center;
+}
+
+.box {
+  width : 40vw;
+  height: 30vw;
+  background-color: red;
+  /* 여백 상하좌우 */
+  padding : 10px;
+  border-radius : 20px;
+  display : block;
+  margin-right: auto;
+  margin-left: auto;
+  font-size : 10px;
+  color : white;
+  box-shadow : 10px 10px gray;
+}
+/* inherit 상속기능  box 클래스에서 폰트 지정하면
+그 자식인 p태그가 폰트 변경 */
+
