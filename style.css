@@ -1,4 +1,19 @@
-@charset "utf-8";
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, q, abbr, address, cite, code, img, ul, ol, li, dl, dt, dd, a, sub, sup, strong, em, header, nav, section, article, footer, aside, form, fieldset, legend, label, video, table, caption, thead, tbody, tfoot, tr, th, td {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+
+body{font-family:'Noto Sans KR',sans-serif; color:#2b2b2b;}
 
 header {
   display : flex;
@@ -12,10 +27,17 @@ a:hover{
   font-style: italic;
   font-size : 110%;
 }
-ul {
+ul, ol, li {
   list-style: none;
-  text-decoration: none;
-  text-align: center;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }
 .bar {
   display : flex;
@@ -29,4 +51,12 @@ ul {
 }
 #li{
   margin-right: 20px;
+}
+header h2 {
+  display : none;
+}
+
+#home>.container>p:nth-child(1){
+  top: 200px;
+  left:60px
 }
